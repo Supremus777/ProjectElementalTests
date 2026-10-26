@@ -44,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\DamageData.cs" />
+    <Compile Include="Models\ElementalSystem.cs" />
     <Compile Include="Models\Elements.cs" />
     <Compile Include="Models\Health.cs" />
     <Compile Include="Models\ObjectStats.cs" />
     <Compile Include="Models\PlayerLevel.cs" />
+    <Compile Include="Models\Reaction.cs" />
+    <Compile Include="Models\ReactionType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

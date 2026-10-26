@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="ProjectElementalTests/ProjectElementalTests.csproj" Id="0f02943a-7e0b-458d-8ff7-887acc5b6023" />
+  <Project Path="GameObjects/GameObjects.csproj" Id="92902414-cfac-4174-9ab0-970a50dc4a76" />
+  <Project Path="GameTests/GameTests.csproj" Id="b8f4bdf7-6edd-4fb8-9b48-1ba110c2dea1" />
 </Solution>

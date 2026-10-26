@@ -19,12 +19,12 @@ public class Health
         healthCurrent = healthMax;
     }
 
-    public void TakeDamage(DamageData damage)
+    public void TakeDamage(DamageData damageData)
     {
-        if (isDead || damage.Damage <= 0)
+        if (isDead || damageData.damage <= 0)
             return;
 
-        healthCurrent = (int)Math.Max(0L, (long)healthCurrent - damage.Damage);
+        healthCurrent = (int)Math.Max(0L, (long)healthCurrent - damageData.damage);
 
         OnHealthChanged?.Invoke(healthCurrent, healthMax);
 
@@ -33,7 +33,7 @@ public class Health
             healthCurrent = 0;
             isDead = true;
 
-            OnDeath?.Invoke(damage);
+            OnDeath?.Invoke(damageData);
         }
     }
 

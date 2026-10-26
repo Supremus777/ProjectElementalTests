@@ -2,7 +2,7 @@
 
 public struct DamageData
 {
-    public int Damage;
+    public int damage;
     public Elements element;
     public ObjectStats stats;
     public bool applyVulnerability;
